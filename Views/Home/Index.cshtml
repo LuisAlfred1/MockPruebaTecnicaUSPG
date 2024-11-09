@@ -2,7 +2,41 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-5">
+    <div class="row mb-4">
+        <!-- Filtros -->
+        <div class="col-md-8">
+            <input type="text" class="form-control" placeholder="Filtrar por producto...">
+        </div>
+        <div class="col-md-2">
+            <input type="text" class="form-control" placeholder="Año">
+        </div>
+        <div class="col-md-2">
+            <input type="text" class="form-control" placeholder="Mes">
+        </div>
+    </div>
 </div>
+
+<div class="row">
+    <!-- Tarjetas de Totales -->
+    <div class="col-md-3">
+        <div class="card text-center" style="border-radius:15px;">
+            <div class="card-body">
+                <h3>Q.5,123 </h3>
+                <p>Total de Ventas 💰</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-3 mt-3">
+        <div class="card text-center" style="border-radius:15px;">
+            <div class="card-body">
+                <h3>200</h3>
+                <p>Total de Unidades 📦</p>
+            </div>
+        </div>
+    </div>
+</div>
+
